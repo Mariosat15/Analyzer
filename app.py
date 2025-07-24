@@ -104,6 +104,68 @@ def get_theme_css(dark_mode=False):
         z-index: 1;
     }
     
+    .main-header .creator {
+        font-size: 1.5rem;
+        margin: 1rem 0 0 0;
+        opacity: 1.0;
+        font-weight: 700;
+        font-style: normal;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    
+    .main-header .email {
+        font-size: 1.1rem;
+        margin: 0.5rem 0 0 0;
+        opacity: 0.9;
+        font-weight: 400;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .github-section {
+        margin: 1.5rem 0 0 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .github-btn {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.15);
+        color: white !important;
+        padding: 12px 24px;
+        border-radius: 25px;
+        text-decoration: none !important;
+        font-weight: 600;
+        font-size: 1rem;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+    
+    .github-btn:hover {
+        background: rgba(255, 255, 255, 0.25);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        color: white !important;
+        text-decoration: none !important;
+    }
+    
+    .github-btn:link, .github-btn:visited, .github-btn:active {
+        color: white !important;
+        text-decoration: none !important;
+    }
+    
+    .github-icon {
+        margin-right: 8px;
+        font-size: 1.1em;
+    }
+    
     /* Enhanced Metric Cards */
     .metric-card {
         background: white;
@@ -1884,6 +1946,14 @@ def main():
             <div class="brand-section">
                 <h1>📈 AI Seasonal Edge</h1>
                 <p class="subtitle">Advanced Seasonal Pattern Analytics • Powered by Machine Learning</p>
+                <p class="creator">Created by Marios Athinodorou</p>
+                <p class="email">📧 Athinodoroumarios@yahoo.com</p>
+                <div class="github-section">
+                    <a href="https://github.com/Mariosat15/Analyzer/tree/master" target="_blank" class="github-btn">
+                        <span class="github-icon">⭐</span>
+                        View on GitHub
+                    </a>
+                </div>
             </div>
             <div class="header-badges">
                 <span class="badge professional">Professional Grade</span>
