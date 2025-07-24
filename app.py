@@ -5951,6 +5951,36 @@ def display_landing_page():
         </div>
     </div>
     """, unsafe_allow_html=True)
+    
+    # Disclaimer Section
+    st.markdown("""
+    <div style="text-align: center; padding: 2rem 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; margin: 2rem 0; color: white; border-top: 3px solid rgba(255, 255, 255, 0.3);">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; color: white;">
+                ⚖️ Important Disclaimer
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; backdrop-filter: blur(10px);">
+                <p style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 1rem; color: white;">
+                    <strong>⚠️ Not Financial Advice:</strong> This platform is for educational and analytical purposes only. 
+                    All analysis, strategies, and recommendations provided are not financial advice and should not be 
+                    considered as such. Always consult with qualified financial professionals before making investment decisions.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.5; color: white; opacity: 0.9;">
+                    Past performance does not guarantee future results. Trading and investing involve substantial risk 
+                    of loss and may not be suitable for all investors.
+                </p>
+            </div>
+            <div style="border-top: 2px solid rgba(255, 255, 255, 0.2); padding-top: 1.5rem;">
+                <p style="font-size: 1.3rem; font-weight: 600; color: white; margin-bottom: 0.5rem;">
+                    Created by Marios Athinodorou
+                </p>
+                <p style="font-size: 1rem; color: white; opacity: 0.8;">
+                    © 2025 AI Seasonal Edge Platform. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 def display_risk_analysis(stock_data, seasonal_stats, symbol):
     """Display comprehensive risk analysis"""
