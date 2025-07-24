@@ -1,5 +1,5 @@
-# 📈 AI Seasonal Edge
-
+# 📈 AI Seasonal Edge - Created by Marios Athinodorou
+Athinodoroumarios@yahoo.com
 **Discover Hidden Seasonal Patterns in Stock Markets with AI**
 
 ![AI Seasonal Edge](https://img.shields.io/badge/AI-Seasonal%20Edge-blue?style=for-the-badge&logo=chart-line)
