@@ -88,7 +88,7 @@ def get_theme_css(dark_mode=False):
     .main-header h1 {
         font-family: 'Inter', sans-serif;
         font-weight: 800;
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         margin: 0;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         position: relative;
@@ -96,7 +96,7 @@ def get_theme_css(dark_mode=False):
     }
     
     .main-header .subtitle {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin: 1rem 0 0 0;
         opacity: 0.95;
         font-weight: 400;
@@ -105,7 +105,7 @@ def get_theme_css(dark_mode=False):
     }
     
     .main-header .creator {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin: 1rem 0 0 0;
         opacity: 1.0;
         font-weight: 700;
@@ -141,7 +141,7 @@ def get_theme_css(dark_mode=False):
         border-radius: 25px;
         text-decoration: none !important;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.5rem;
         border: 2px solid rgba(255, 255, 255, 0.3);
         transition: all 0.3s ease;
         backdrop-filter: blur(10px);
@@ -5649,28 +5649,28 @@ def display_landing_page():
         <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 25px; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: 600;">
             🚀 Professional Analytics Platform
         </div>
-        <h1 style="font-size: 3rem; font-weight: 800; margin: 1rem 0; line-height: 1.1;">
+        <h1 style="font-size: 4rem; font-weight: 800; margin: 1rem 0; line-height: 1.1;">
             AI Seasonal Edge
         </h1>
-        <h2 style="font-size: 1.5rem; font-weight: 400; margin: 1rem 0; opacity: 0.9;">
+        <h2 style="font-size: 1.6rem; font-weight: 400; margin: 1rem 0; opacity: 0.9;">
             Transform Market Data Into Actionable Intelligence
         </h2>
-        <p style="font-size: 1.1rem; max-width: 600px; margin: 2rem auto; opacity: 0.9; line-height: 1.6;">
+        <p style="font-size: 1.5rem; max-width: 1000px; margin: 2rem auto; opacity: 0.9; line-height: 1.6;">
             Professional-grade seasonal pattern analysis powered by advanced machine learning. 
             Generate institutional-quality reports with comprehensive risk analysis and strategy optimization.
         </p>
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 500px; margin: 2rem auto 0;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; max-width: 600px; margin: 2rem auto 0;">
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 900; color: #ffd700;">8</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">Strategies</div>
+                <div style="font-size: 4rem; font-weight: 900; color: #ffd700;">8</div>
+                <div style="font-size: 2rem; font-weight: 500; opacity: 1;">Strategies</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 900; color: #ffd700;">10K+</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">Simulations</div>
+                <div style="font-size: 4rem; font-weight: 900; color: #ffd700;">10K+</div>
+                <div style="font-size: 2rem; font-weight: 500; opacity: 1;">Simulations</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 900; color: #ffd700;">99.9%</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">Accuracy</div>
+                <div style="font-size: 4rem; font-weight: 900; color: #ffd700;">99.9%</div>
+                <div style="font-size: 2rem; font-weight: 500; opacity: 1;">Accuracy</div>
             </div>
         </div>
     </div>
@@ -5693,11 +5693,11 @@ def display_landing_page():
     
     with col1:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">AI-Powered Analysis</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">Advanced ML algorithms detect seasonal patterns with 95%+ accuracy.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">AI-Powered Analysis</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">Advanced ML algorithms detect seasonal patterns accuracy.</p>
+            <div style="text-align: center; color: white;">
                 ✓ Prophet forecasting<br>
                 ✓ Pattern recognition<br>
                 ✓ Anomaly detection<br>
@@ -5708,11 +5708,11 @@ def display_landing_page():
     
     with col2:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">Advanced Analytics</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">Institutional-quality risk analysis and performance metrics.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">Advanced Analytics</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">Institutional-quality risk analysis and performance metrics.</p>
+            <div style="text-align: center; color: white;">
                 ✓ Sharpe ratio optimization<br>
                 ✓ VaR & drawdown analysis<br>
                 ✓ Volatility clustering<br>
@@ -5723,11 +5723,11 @@ def display_landing_page():
     
     with col3:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">Strategy Backtesting</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">Test 8 sophisticated strategies with Monte Carlo simulations.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">Strategy Backtesting</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">Test 8 sophisticated strategies with Monte Carlo simulations.</p>
+            <div style="text-align: center; color: white;">
                 ✓ 10,000+ scenario testing<br>
                 ✓ Transaction cost modeling<br>
                 ✓ Risk-adjusted returns<br>
@@ -5741,11 +5741,11 @@ def display_landing_page():
     
     with col1:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">📋</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">Professional Reports</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">8-page PDF reports with legal disclaimers for clients.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">Professional Reports</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">8-page PDF reports with legal disclaimers for clients.</p>
+            <div style="text-align: center; color: white;">
                 ✓ Executive summaries<br>
                 ✓ Visual analytics<br>
                 ✓ Legal disclaimers<br>
@@ -5756,11 +5756,11 @@ def display_landing_page():
     
     with col2:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">Real-Time Processing</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">Lightning-fast analysis with results in under 30 seconds.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">Real-Time Processing</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">Lightning-fast analysis with results in under 30 seconds.</p>
+            <div style="text-align: center; color: white;">
                 ✓ Optimized algorithms<br>
                 ✓ Multi-asset support<br>
                 ✓ Scalable architecture<br>
@@ -5771,11 +5771,11 @@ def display_landing_page():
     
     with col3:
         st.markdown("""
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
+        <div style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 1rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">🔒</div>
-            <h3 style="color: #1e293b; margin-bottom: 1rem;">Enterprise Security</h3>
-            <p style="color: #64748b; margin-bottom: 1.5rem;">Bank-grade security with comprehensive audit trails.</p>
-            <div style="text-align: left; color: #475569;">
+            <h3 style="color: white; margin-bottom: 1rem;">Enterprise Security</h3>
+            <p style="color: white; margin-bottom: 1.5rem;">Bank-grade security with comprehensive audit trails.</p>
+            <div style="text-align: center; color: white;">
                 ✓ Data encryption<br>
                 ✓ Audit logging<br>
                 ✓ Compliance ready<br>
@@ -5898,53 +5898,53 @@ def display_landing_page():
     
     # Call to Action
     st.markdown("""
-    <div style="text-align: center; padding: 3rem 1rem; background: linear-gradient(135deg, #1e293b 0%, #334155 100%); border-radius: 20px; margin: 3rem 0; color: white;">
-        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">
+    <div style="text-align: center; padding: 3rem 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; margin: 3rem 0; color: white;">
+        <h2 style="font-size: 3rem; font-weight: 700; margin-bottom: 1rem;">
             Ready to Transform Your Strategy?
         </h2>
-        <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem; opacity: 0.9; line-height: 1.6;">
+        <p style="font-size: 1.8rem; max-width: 700px; margin: 0 auto 2rem; opacity: 1; line-height: 1.6;">
             Join thousands of professionals using AI Seasonal Edge for institutional-quality market analysis
         </p>
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 600px; margin: 2rem auto;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 700px; margin: 2rem auto;">
             <div style="text-align: center;">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚡</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">30-second analysis</div>
+                <div style="font-size: 4rem; margin-bottom: 0.4rem;">⚡</div>
+                <div style="font-size: 1.3rem; opacity: 2;">30-second analysis</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">Professional reports</div>
+                <div style="font-size: 4rem; margin-bottom: 0.4rem;">📊</div>
+                <div style="font-size: 1.3rem; opacity: 1;">Professional reports</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
-                <div style="font-size: 0.9rem; opacity: 0.9;">Actionable insights</div>
+                <div style="font-size: 4rem; margin-bottom: 0.4rem;">🎯</div>
+                <div style="font-size: 1.3rem; opacity: 1;">Actionable insights</div>
             </div>
         </div>
         <div style="margin-top: 2rem;">
-            <p style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Upload your CSV file in the sidebar to begin</p>
-            <div style="font-size: 2rem; animation: bounce 2s infinite;">👈</div>
+            <p style="font-size: 1.5rem; margin-bottom: 0.4rem; font-weight: 600;">Upload your CSV file in the sidebar to begin</p>
+            <div style="font-size: 4rem; animation: bounce 2s infinite;">👈</div>
         </div>
     </div>
     """, unsafe_allow_html=True)
     
     # Footer
     st.markdown("""
-    <div style="background: #f8fafc; border-radius: 16px; padding: 2rem; margin: 2rem 0; border: 1px solid #e2e8f0;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2rem; margin: 2rem 0; border: 1px solid #e2e8f0;">
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center;">
             <div>
-                <h4 style="color: #1e293b; margin-bottom: 1rem;">🔒 Enterprise Ready</h4>
-                <p style="color: #64748b; font-size: 0.9rem; line-height: 1.5;">
+                <h4 style="color: white; margin-bottom: 1rem;">🔒 Enterprise Ready</h4>
+                <p style="color: white; font-size: 1rem; line-height: 1.5;">
                     Bank-grade security, audit trails, and compliance-ready reporting for institutional use.
                 </p>
             </div>
             <div>
-                <h4 style="color: #1e293b; margin-bottom: 1rem;">📈 Proven Results</h4>
-                <p style="color: #64748b; font-size: 0.9rem; line-height: 1.5;">
+                <h4 style="color: white; margin-bottom: 1rem;">📈 Proven Results</h4>
+                <p style="color: white; font-size: 1rem; line-height: 1.5;">
                     Trusted by portfolio managers, financial advisors, and trading firms worldwide.
                 </p>
             </div>
             <div>
-                <h4 style="color: #1e293b; margin-bottom: 1rem;">🚀 Continuous Innovation</h4>
-                <p style="color: #64748b; font-size: 0.9rem; line-height: 1.5;">
+                <h4 style="color: white; margin-bottom: 1rem;">🚀 Continuous Innovation</h4>
+                <p style="color: white; font-size: 1rem; line-height: 1.5;">
                     Regular updates with cutting-edge AI algorithms and market analysis techniques.
                 </p>
             </div>
