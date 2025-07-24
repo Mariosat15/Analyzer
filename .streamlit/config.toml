@@ -1,0 +1,18 @@
+[global]
+developmentMode = false
+
+[server]
+runOnSave = true
+port = 8501
+enableStaticServing = false
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[theme]
+# Custom theme for AI Seasonal Edge
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730" 
